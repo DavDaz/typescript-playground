@@ -1,3 +1,14 @@
+// [A] </>-> [B]
+// - **Definición**:
+//     - La clase **A** conoce al objeto **B**, lo contiene y gestiona su ciclo de vida. 
+//        Esto significa que **A** es responsable de crear y destruir **B**. 
+//        Si **A** se destruye, **B** también se destruye.
+// - **Ejemplo**:
+//     - Piensa en una clase `Casa` (A) que tiene un objeto `Habitación` (B). 
+//        La `Casa` contiene `Habitación`, y si la `Casa` se vende o se destruye, 
+//        también se destruyen las `Habitaciones`. La `Casa` es responsable de la existencia de las `Habitaciones`.
+
+
 class Direccion {
     calle: string;
     ciudad: string;

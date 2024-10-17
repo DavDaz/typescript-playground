@@ -1,3 +1,20 @@
+// Implementacion
+// [A] ---|> [B]
+//implements: cumplimiento de contrato, no hereda implementación.
+//extends: herencia, reutilización de código.
+
+/**
+ * La implementación de una interfaz nos permite
+ * definir el contrato que debe cumplir una clase,
+ * sin heredar la implementación de la interfaz.
+ * 
+ * La implementación de una interfaz no hereda
+ * la implementación de la interfaz, por lo que
+ * cada clase debe implementar los métodos y
+ * propiedades definidas en la interfaz.
+ */
+
+
 // Definimos la interfaz
 interface Vehiculo {
     mover(): void; // Método que las clases deben implementar

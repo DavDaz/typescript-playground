@@ -1,7 +1,9 @@
 // import { miAuto } from './bases/01-dependencia.ts'
 // import { curso } from './bases/02-asociacion'
 import './style.css'
-import { escuela } from './bases/03-agregacion'
+//import { escuela } from './bases/03-agregacion'
+//import { vehiculo } from './bases/07-practice-composicion'
+import { vehiculo } from './bases/08-practice-composicion2'
 
 // document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 //   <div>
@@ -17,6 +19,6 @@ import { escuela } from './bases/03-agregacion'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-  <h1>Ejecutar escuela ${escuela}</h1>
+  <h1>Ejecutar escuela ${vehiculo}</h1>
   </div>
 `

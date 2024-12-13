@@ -3,7 +3,7 @@
 import './style.css'
 //import { escuela } from './bases/03-agregacion'
 //import { vehiculo } from './bases/07-practice-composicion'
-import { vehiculo } from './bases/08-practice-composicion2'
+import { robotDriver} from './bases/12-transport'
 
 // document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 //   <div>
@@ -19,6 +19,6 @@ import { vehiculo } from './bases/08-practice-composicion2'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-  <h1>Ejecutar escuela ${vehiculo}</h1>
+  <h1>Ejecutar escuela ${robotDriver}</h1>
   </div>
 `
